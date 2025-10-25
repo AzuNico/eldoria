@@ -7,6 +7,8 @@ Un mundo mágico diseñado para aprender programación a través de ejercicios i
 - Node.js (versión 16 o superior)
 - npm (viene con Node.js)
 
+Instala Node.js en: https://nodejs.org/es
+
 ## 🚀 Configuración del Proyecto
 
 En la terminal de Visual Studio Code, ejecuta los siguientes comandos:
