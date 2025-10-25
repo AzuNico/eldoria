@@ -1,0 +1,27 @@
+{
+  "name": "eldoria",
+  "version": "1.0.0",
+  "description": "Repositorio de ejercicios de programación, Eldoria es un mundo mágico ficticio para fines didacticos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "eldoria": "nodemon --ext js,ts --quiet --exec \"node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm\" index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzuNico/eldoria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzuNico/eldoria/issues"
+  },
+  "homepage": "https://github.com/AzuNico/eldoria#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
