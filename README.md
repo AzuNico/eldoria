@@ -47,8 +47,7 @@ eldoria/
 │       └── poo/                   # Programación Orientada a Objetos
 ├── machetes/                      # Archivos de ayuda y referencia
 ├── index.js                       # Punto de entrada
-├── app.js                         # Donde se ejecutan los ejercicios
-└── package.json
+└── app.js                         # Donde se ejecutan los ejercicios
 ```
 
 ## 🎯 Ejercicios
