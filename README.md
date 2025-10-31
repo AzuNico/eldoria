@@ -7,6 +7,8 @@ Un mundo mágico diseñado para aprender programación a través de ejercicios i
 - Node.js (versión 16 o superior)
 - npm (viene con Node.js)
 
+Instala Node.js en: https://nodejs.org/es
+
 ## 🚀 Configuración del Proyecto
 
 En la terminal de Visual Studio Code, ejecuta los siguientes comandos:
@@ -45,8 +47,7 @@ eldoria/
 │       └── poo/                   # Programación Orientada a Objetos
 ├── machetes/                      # Archivos de ayuda y referencia
 ├── index.js                       # Punto de entrada
-├── app.js                         # Donde se ejecutan los ejercicios
-└── package.json
+└── app.js                         # Donde se ejecutan los ejercicios
 ```
 
 ## 🎯 Ejercicios
