@@ -1,3 +1,4 @@
+
 import { abrirPortal } from "./src/ejercicios/pe/00-abrir-portal/index.js";
 import {
   recolectar,
@@ -5,6 +6,9 @@ import {
 } from "./src/ejercicios/pe/01-recolectar-cristales/index.js";
 import { pescarEnElLago } from "./src/ejercicios/pe/03-pesca-en-el-lago/index.js";
 
+
+ // CRL + K + C para comentar varias lineas
+ // CRL + K + U para descomentar varias lineas
 
 // Reino aca vive mi programa
 function Eldoria() {
@@ -14,21 +18,22 @@ function Eldoria() {
   // let energia = 50;
   // const palabraMagica = "Eldoria";
 
-  // abrirPortal(poder, energia, palabraMagica);
+  abrirPortal(poder, energia, palabraMagica);
   
-  // --------------Ejercicio 2----------------
-  // let rojo = 10;
-  // let verde = 25;
-  // let violeta = 40;
-  // let azul = 15;
-  // let amarillo = 30;
-  // const cristales = [rojo, verde, violeta, azul, amarillo];
+  // --------------Ejercicio 2---------------- 
 
-  // recolectar(cristales);
-  // recolectarForOf(cristales);
+  //  let rojo = 10;
+  //  let verde = 25;
+  //  let violeta = 40;
+  //  let azul = 15;
+  //  let amarillo = 30;
+  //  const cristales = [rojo, verde, violeta, azul, amarillo];
+
+  //  recolectar(cristales);
+  //  recolectarForOf(cristales);
 
     // --------------Ejercicio 3----------------
-    pescarEnElLago();
+    //pescarEnElLago();
 }
 
 export default Eldoria;
