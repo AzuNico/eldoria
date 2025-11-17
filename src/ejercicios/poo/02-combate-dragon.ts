@@ -35,13 +35,19 @@
  * 5) Crear la clase "Dragon":
  *       - Extiende (Hereda) de SerVivo
  *       - Implementa Combatiente
+ *       - Atributos adicionales:
+ *           * botin: number (cantidad de oro que suelta al morir)
+*        - Constructor debe inicializar puntosVida y botin
+ *       - Metodos adicionales:
+ *         * obtenerBotin(): number → devuelve el botín
+ *         * volar(): string → devuelve "El dragón vuela majestuosamente."     
  *       - Su ataque es fuego, con un daño fijo (por ejemplo 12):
  *            * El método atacar() debe aplicar ese daño al objetivo
  *             usando objetivo.recibirDanio(daño)
  *            * Existe la posibilidad de que el dragón falle su ataque (20% de chance)
  *            Si falla, no debe aplicar daño.
  *            * Existe un 10% de chance de que el dragón haga un ataque crítico,
- *           que duplica el daño (24 en vez de 12).
+ *           que duplica el daño (Ej: 24 en vez de 12).
  * 
  *
  * 6) Simular un combate:
